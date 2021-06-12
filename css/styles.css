@@ -1,0 +1,115 @@
+body {
+  color: #63666a !important;
+}
+
+.color-green {
+  color: #69beaa;
+}
+
+.brd-bottom {
+  border-bottom: 1px solid #94563d !important;
+}
+
+.brd-right {
+  border-right: 1px solid #94563d !important;
+}
+
+.m-section-two {
+  margin-top: 35px;
+  margin-right: 20px;
+  margin-left: -60px;
+  
+}
+.section-one {
+  background-color: #69beaa;
+  height: 184px;
+  width: auto;
+}
+.section-two {
+  background-color: #fff;
+  height: 738px;
+  width: auto;
+}
+
+.section-three {
+  background-color: #ecedef;
+  height: 369px;
+  width: auto;
+}
+
+.section-footer {
+  background: url(../img/11.png) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 369px;
+  position: relative;
+  width: auto;
+}
+
+.img-book {
+  background: url(../img/02.png) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 150vh;
+  position: relative;
+  margin-top: -188px;
+}
+
+.redirect {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #69beaa !important;
+}
+.txt-right{
+  text-align: right
+}
+
+
+@media only screen and (max-width : 900px) {
+  .img-book {
+    display: none;
+  }
+  .txt-right{
+    display: none;
+  }
+  .section-one {
+    background-color: #69beaa;
+    height: auto;
+    width: auto;
+  }
+  .section-two {
+    background-color: #fff;
+    height: auto;
+    width: auto;
+  }
+  .section-three {
+    background-color: #ecedef;
+    height: auto;
+    width: auto;
+  }
+  .brd-right {
+    border-right: 1px  #94563d !important;
+  }
+  .m-section-two {
+    margin-top: 35px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+  }
+  .section-footer {
+    background: url(../img/11.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 369px;
+    position: relative;
+    width: auto;
+  }
+  
+  
+  }
