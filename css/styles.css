@@ -41,12 +41,12 @@ body {
 }
 
 .section-footer {
-  background: url(../img/11.png) no-repeat top center;
+  background: url(../img/12.png) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 300px;
   position: relative;
   width: auto;
 }
@@ -68,9 +68,19 @@ body {
   text-align: right;
 }
 
+.w-img{
+  width: 650px;
+}
+
 @media only screen and (max-width: 900px) {
   .img-book {
-    display: none;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-bottom: -150px;
+  }
+  .w-img{
+    width: 350px;
   }
 
   .txt-right {
@@ -106,12 +116,12 @@ body {
   }
 
   .section-footer {
-    background: url(../img/11.png) no-repeat top center;
+    background: url(../img/12.png) no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 369px;
+    height: 250px;
     position: relative;
     width: auto;
   }
